@@ -4,15 +4,15 @@ import { usePathname } from 'next/navigation';
 
 export default function Home() {
     const pathname = usePathname()
-    console.log(pathname);
+    // console.log(pathname);
 
     return (
       <>
         <header className="fixed w-full z-20">
-              <nav className="bg-white h-[100px] border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
+              <nav className="bg-black h-[100px] border-gray-200 px-4 lg:px-6 py-2.5">
                   <div className="h-full text-2xl flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                       <a href="/" className={`flex items-center ${pathname === '/' ? 'text-white' : 'text-zinc-500'}`}>
-                          <img src="https://flowbite.com/docs/images/logo.svg" className="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
+                          <img src="./Logo.png" className="mr-3 h-6 sm:h-9" alt="Logo" />
                           <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">CodeRIT</span>
                       </a>
                       <div className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
@@ -34,6 +34,8 @@ export default function Home() {
                   </div>
               </nav>
           </header>
+
+
       </>
     )
   }

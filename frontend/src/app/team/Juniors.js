@@ -47,18 +47,6 @@ const Juniors=[
         "url":"",
         "desc":"We are the Junior core member of this prestigious club of Ramaiah"
     },
-    {
-        "name":"",
-        "src":"/Juniors/",
-        "url":"",
-        "desc":"We are the Junior core member of this prestigious club of Ramaiah"
-    },
-    {
-        "name":"",
-        "src":"/Juniors/",
-        "url":"",
-        "desc":"We are the Junior core member of this prestigious club of Ramaiah"
-    },
 ]
 
 

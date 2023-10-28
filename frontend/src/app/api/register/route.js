@@ -2,27 +2,29 @@ import Student from "@/src/models/studentModel";
 
 import { connect } from "@/src/dbconfig/dbconfig";
 
-import { NextResponse,NextRequest } from "next/server";
+import { NextResponse } from "next/server";
 
 export async function POST(request){
     try{
         await connect();
 
         const reqBody=await request.json();
-        console.log(reqBody);
-        const {name,usn,branch,email}=reqBody;
+        // console.log(reqBody);
+        const {name,usn,branch,email,phone,queries}=reqBody;
 
         const newStud=Student({
             name,
             usn,
             branch,
-            email
+            email,
+            phone,
+            queries
         })
 
-        console.log(newStud);
+        // console.log(newStud);
 
         const savedUser=await newStud.save();
-        console.log(savedUser);
+        // console.log(savedUser);
 
         return NextResponse.json({
             message:"Created User successfully",
@@ -31,8 +33,8 @@ export async function POST(request){
         })
     }
     catch(error){
-        console.log("error");
-        console.log(error.message);
+        // console.log("error");
+        // console.log(error.message);
         return NextResponse.json({message:error.message},{status:500})
     }
 }
