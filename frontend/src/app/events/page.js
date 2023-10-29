@@ -28,7 +28,7 @@ export default function Home() {
       </div>
     </div> */}
       {/* <h1 className='text-black mt-[100px] '>Events</h1> */}
-      <div className='mt-[100px] w-full bg-red-100'>
+      <div className='mt-[72px] w-full bg-red-100'>
         <div className="flex justify-center items-center m-[20px]">
               <div className="w-full h-[500px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                   <div className="p-5 h-full flex flex-col items-center">

@@ -45,17 +45,17 @@ export default function Home() {
               </nav>
           </header> */}
 
-        <nav>
-            <a href='/'>
+        <nav className='fixed w-full z-10'>
+            <a href='/' className='text-white text-3xl'>
                 CodeRIT
             </a>
 
             <div>
                 <ul id="navbar" className={`${clicked?"#navbar active":"#navbar"} z-50`}>
-                    <li className='text-white'><a href='/'>Home</a></li>
-                    <li className='text-white'><a href='/events'>Events</a></li>
-                    <li className='text-white'><a href='/team'>Team</a></li>
-                    <li className='text-white'><a href='/registration'>Registration</a></li>
+                    <li className={`${pathname === '/' ? 'text-white' : 'text-zinc-500'}`}><a href='/'>Home</a></li>
+                    <li className={`${pathname === '/events' ? 'text-white' : 'text-zinc-500'}`}><a href='/events'>Events</a></li>
+                    <li className={`${pathname === '/team' ? 'text-white' : 'text-zinc-500'}`}><a href='/team'>Team</a></li>
+                    <li className={`${pathname === '/registration' ? 'text-white' : 'text-zinc-500'}`}><a href='/registration'>Registration</a></li>
                 </ul>
             </div>
 
