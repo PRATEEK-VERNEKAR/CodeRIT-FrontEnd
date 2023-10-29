@@ -18,25 +18,25 @@ const Juniors=[
         "desc":"We are the Junior core member of this prestigious club of Ramaiah"
     },
     {
-        "name":"",
+        "name":"Agniv",
         "src":"/Juniors/Agniv.jpg",
         "url":"",
         "desc":"We are the Junior core member of this prestigious club of Ramaiah"
     },
     {
-        "name":"",
+        "name":"Prachi",
         "src":"/Juniors/Prachi.jpg",
         "url":"",
         "desc":"We are the Junior core member of this prestigious club of Ramaiah"
     },
     {
-        "name":"",
+        "name":"Nikith",
         "src":"/Juniors/Nikith.jpg",
         "url":"",
         "desc":"We are the Junior core member of this prestigious club of Ramaiah"
     },
     {
-        "name":"",
+        "name":"Siddharth",
         "src":"/Juniors/Siddharth.jpg",
         "url":"",
         "desc":"We are the Junior core member of this prestigious club of Ramaiah"
